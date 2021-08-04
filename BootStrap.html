@@ -1,0 +1,441 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Ahmed Haron</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NavBar-->
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-Dark">
+        <div class="container-xxl">
+            <a href="#intro" class="navbar-brand">
+                <i class="bi bi-book-half"></i>
+                <span class="fw-bold text-primary">Net-Ninja Pro - The Book</span>
+            </a>
+            <!--Toggle Button For Mobile nav-->
+            <button class="navbar-toggler btn btn-secondary" type="button" data-bs-toggle='collapse'
+            data-bs-target='#main-nav' aria-controls="main-nav" aria-expanded="false" 
+            aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+
+            <!-- Navbar Links-->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#topics">About This Book</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#reviews" class="nav-link">Reviews</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Get In Touch</a>
+                        </li>
+                        <li class="nav-item d-md-none">
+                            <a href="#pricing" class="nav-link">Pricing</a>
+                        </li>
+                        
+                        <li class="nav-item ms-2 d-none d-md-inline">
+                            <a  href="#pricing" class=" btn btn-secondary">Buy Now</a>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Main Menu and IMage-->
+    <section id="intro">
+        <div class="container-lg ">
+             <div class="row justify-content-center align-items-center"> 
+                <div class="col-md-5 text-center text-md-start">
+                    <h1>
+                        <div class="display-2">Black Belt</div>
+                        <div class="display-5 text-muted">Your Coding Skills</div>
+                    </h1>
+                    <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#pricing" class="btn btn-outline-secondary btn-lg">Buy Now</a>
+                    <a href="#sidebar" class="d-block mt-3 " aria-control="sidebar" role="button" data-bs-toggle="offcanvas">
+                        Explore My Other Book
+                    </a>
+                </div>
+                <div class="col-md-5 text-center d-none d-md-block">
+                    <!--Tooltip-->
+                    <span class="hover" data-bs-placement="bottom" title="Net Ninja Book Cover">
+                        <img class="img-fluid"  src="/BootStrapProject/assets/ebook-cover.png" alt="Book">
+                    </span> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Pricing-->
+
+    <section id="pricing" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Pricing Plans</h2>
+                <p class="lead text-muted">Choose a pricing plan to suit you.</p>
+            </div>
+            <div class="row my-5 justify-content-center align-items-center g-0">
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Starter Edition</h4>
+                            <p class="lead card-subtitle">ebook download only</p>
+                            <p class="display-5 text-primary fw-bold my-4 text">$12.99</p>
+                            <p class="card-text mx-5 text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9 col-lg-4 col-xl-4">
+                    <div class="card border-2">
+                        <div class="card-header text-center text-primary">Most Popular</div>
+                        <div class="card-body text-center py-5">
+                            <h4 class="card-title">Complete Edition</h4>
+                            <p class="lead card-subtitle">ebook download & all update</p>
+                            <p class="display-4 text-primary fw-bold my-4 text">$18.99</p>
+                            <p class="card-text mx-5 text-muted ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto sapiente eligendi, corporis soluta distinctio rem!</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-0">
+                        <div class="card-body text-center py-4">
+                            <h4 class="card-title">Ultimate Edition</h4>
+                            <p class="lead card-subtitle">download,updates & extras</p>
+                            <p class="display-5 text-primary fw-bold my-4 text">$24.99</p>
+                            <p class="card-text mx-5 text-muted ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore dolores aliquid aliquam iusto ex aspernatur?</p>
+                            <a href="#" class="btn btn-outline-primary btn-lg mt-3">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Topic At A Glance-->
+            <section id="topics">
+                <div class="container-md">
+                    <div class="text-center">
+                        <h2>Inside The Book...</h2>
+                        <p class="lead text-muted">A quick glance at the topics you 'll learn</p>
+                    </div>
+
+                    <div class="row my-5 g-5 justify-content-around align-items-center">
+                        <div class="col-6 col-lg-4">
+                            <img src="assets/kindle.png" class="img-fluid" alt="ebook">
+                        </div>
+                        <!--Accordion-->
+
+                        <div class="col-lg-6">
+                            <div class="accordion" id="chapters">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading-1">
+                                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chatper1 ">
+                                        Chapter 1 - Your First Web Page
+                                        </button>
+                                    </h2>
+                                    <div id="chapter-1" class="accordion-collapse collapse show" 
+                                    aria-labelledby="heading-1" data-bs-parent='#chapters'>
+                                    <div class="accordion-body">
+                                        <p class=" text-success">This guide is intended for those who have no experience creating web pages and want to get started. It will show you how to write the code for a webpage, save it, and view the result.
+                                        The world of webpage building is an interesting and rewarding one, hopefully this quick guide on making your first webpage will serve as an easy to understand introduction that will bring you into it.</p>
+                                        <p class="text-muted">Alright, let's do it, your very first webpage! It won't be too difficult. All you will need to do is copy some code we provide, save it in a file, and view the result in a web browser (A web browser is the program you use to view webpages..in case you didn't know)..</p>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading-2">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#chapter-2" aria-expanded="false" aria-controls="chatper2">
+                                        Chapter 2 - Learning CSS
+                                        </button>
+                                    </h2>
+                                    <div id="chapter-2" class="accordion-collapse collapse" 
+                                    aria-labelledby="heading-2" data-bs-parent='#chapters'>
+                                    <div class="accordion-body">
+                                        <p class=" text-success">CSS stands for Cascading Style Sheets. It is a language designed to specify the overall appearance of webpages as well as the appearance and structure of the text and elements such as images and buttons on webpages and their layout. Styles can be specified with CSS using internal style sheet definitions which are placed right into HTML/XHTML code or in external files.</p>
+                                        <p class="text-muted">At this point you should at the very least be     familiar with building webpages (HTML/XHTML), and styling them (CSS).
+                                            Now you can move on to working with dynamic and interactive content and displaying it on webpages - check out our Javascript tutorials or VBScript tutorials to learn how to do that. You could also begin working with more powerful and complex languages and technologies like PHP or ASP. Check out our PHP tutorials and ASP tutorials to learn how to do that.</p>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading-3">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#chapter-3" aria-expanded="false" aria-controls="chatper3">
+                                        Chapter 3 - The Power Of Javascript
+                                        </button>
+                                    </h2>
+                                    <div id="chapter-3" class="accordion-collapse collapse" 
+                                    aria-labelledby="heading-3" data-bs-parent='#chapters'>
+                                    <div class="accordion-body">
+                                        <p class=" text-success">Javascript is the most popular scripting language on the world wide web.
+                                        Learning Javascript will help you become familiar with implementing dynamic and interactive content on webpages. 
+                                        This section contains tutorials on a variety of Javascript topics including printing text, working with variables, working with loops & arrays, handling errors, dynamically changing the content on a webpage, and more.</p>
+                                        <p class="text-muted">So you want to learn Javascript? You may already know HTML or XHTML and you want to move on to something more interactive, or you may have heard about Javascript and are curious about it, or one of many other reasons. Whatever your reason(s) may be, Javascript is a great language to learn!</p>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading-4">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#chapter-4" aria-expanded="false" aria-controls="chatper4">
+                                        Chapter 4 - Storing Data (Firebase Databases)
+                                        </button>
+                                    </h2>
+                                    <div id="chapter-4" class="accordion-collapse collapse" 
+                                    aria-labelledby="heading-4" data-bs-parent='#chapters'>
+                                    <div class="accordion-body">
+                                        <p class=" text-success">Staying current with the ever-changing regulatory landscape is challenging. If you’re not referencing the most recent guidance documents, you may be introducing unnecessary compliance risks, including citations, fines, and failed submissions – ultimately wasting time, money and resources.</p>
+                                        <p class="text-muted">We’ve removed the hard work of finding, integrating and analyzing regulatory information so you can focus on the critical decisions needed to get your products to market faster. Access Cortellis Regulatory Intelligence™ to get comprehensive, global, and expertly-analyzed information that spans all regulatory functions across the R&D lifecycle – all in one central location.</p>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="heading-5">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#chapter-5" aria-expanded="false" aria-controls="chatper5">
+                                        Chapter 5 - User Authentication
+                                        </button>
+                                    </h2>
+                                    <div id="chapter-5" class="accordion-collapse collapse" 
+                                    aria-labelledby="heading-5" data-bs-parent='#chapters'>
+                                    <div class="accordion-body">
+                                        <p class=" text-success">User authentication is a process that allows a device to verify the identify of someone who connects to a network resource. There are many technologies currently available to a network administrator to authenticate users. Fireware operates with frequently used applications, including RADIUS, Windows Active Directory, LDAP, and token-based SecurID. The Firebox also has its own authentication server. You can use the Firebox authentication features to monitor and control connections through the Firebox.
+                                        network with multi-user computers such as Unix servers, terminal servers or Citrix servers. The Firebox authenticates one user per computer</p>
+                                        <p class="text-muted">Authentication is very important when you use dynamic IP addressing (DHCP) for computers on the trusted or optional network. It is also important if you must identify your users before you let them connect to resources on the external network. Because the Firebox® associates a user name to an IP address, we do not recommend that you use authentication features in a</p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--Reviews-->
+            <section id="reviews" class="bg-light" >
+                <div class="container-lg" >
+                    <div class="text-center">
+                        <h2>Book Review</h2>
+                        <p class="lead">What my students have said about the book...</p>
+                    </div>
+
+                    <div class="row justify-content-center my-5 ">
+                        <div class="col-lg-6  ">
+                            <div class="list-group">
+                                <div class="list-group-item py-3">
+                                    <div class="pb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <h5 class="mb-3 text-capitalize list-group-item active" > A must buy for every aspiring web dev</h5>
+                                    <p class="mb-3 text-muted">This course is designed to start you on a path toward future studies in web development and design, no matter how little experience or technical knowledge you currently have. The web is a very big place, and if you
+                                    are the typical internet user, you probably visit several websites every day, whether for business, entertainment or education. But have you ever wondered how these websites actually work? How are they built? How
+                                    do browsers, computers, and mobile devices interact with the web? What skills are necessary to build a website? With almost 1 billion websites now on the internet, the answers to these questions could be your first
+                                    step toward a better understanding of the internet and developing a new set of internet skills.</p>
+                                    <small class="fw-bold">Review By Mario</small>
+                                </div>
+                                <div class="list-group-item py-3">
+                                    <div class="pb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </div>
+                                    <h5 class="mb-3 text-capitalize list-group-item active" > it helped me alot for learning and developing site</h5>
+                                    <p class="mb-3">From what I understand, this course is intended for beginners, but after completing the course, I can't say that it is for true beginners. It is possible to complete the course, but if you are true beginner (i.e. someone who has never used or seen HTML, JavaScript, or CSS mark-up language or coding), you might struggle a lot to even understand what the various parts of each language are.</p>
+                                    <small class="fw-bold">Review By Martin</small>
+                                </div>
+                                <div class="list-group-item py-3">
+                                    <div class="pb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <h5 class="mb-3 text-capitalize list-group-item active" > this is my experince as 100% newbie</h5>
+                                    <p class="mb-3">this was a nice introductory course to get basic knowledge of the vast field of web development. i highly recommend this course for those who want to start their new journey in the field of web-d.</p>
+                                    <small class="fw-bold">Review By David</small>
+                                </div>
+                                <div class="list-group-item py-3">
+                                    <div class="pb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </div>
+                                    <h5 class="mb-3 text-capitalize list-group-item active" > good to learn about web development</h5>
+                                    <p class="mb-3">This course deals with all client side fundamentals of web development. It starts from teaching of HTML to javascript validation of HTML forms. Overall this course is a must for beginners.</p>
+                                    <small class="fw-bold">Review By Haron</small>
+                                </div>
+                                <div class="list-group-item py-3">
+                                    <div class="pb-2">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill   "></i>
+                                    </div>
+                                    <h5 class="mb-3 text-capitalize list-group-item active">benefit from learning in the course</h5>
+                                    <p class="mb-3">By the end of this course you’ll be able to describe the structure and functionality of the world wide web, create dynamic web pages using a combination of HTML, CSS, and JavaScript, apply essential programming language concepts when creating HTML forms, select an appropriate web hosting service, and publish your webpages for the world to see. Finally, you’ll be able to develop a working model for creating your own personal or business websites in the future and be fully prepared to take the next step in a more advanced web development or design course or specialization.
+                                    </p>
+                                    <small class="fw-bold">Review By Ali</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Contact Form-->
+            <section id="contact">
+                <div class="container-lg">
+                    <div class="text-center">
+                        <h2>Get In Touch</h2>
+                        <p class="lead">Question to ask? Fill out the form to contact me directly...</p>    
+                    </div>
+                    <div class="row justify-content-center my-5">
+                        <div class="col-lg-6">
+                            <form >
+                                <label for="email" class="form-label mt-3">Email Adress:</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="A.I.H@gmail.com" >
+                                    <!--Tooltip-->
+                                    <span class="input-group-text">
+                                     <span class="hover text-muted" data-bs-placement="right" title="Enter an email address we can reply to."><i class="bi bi-question-circle"></i></span>
+                                    </span>
+                                </div>
+                                
+
+                                <label for="name" class="form-label mt-3">Name:</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                                    <input type="text" id="name" class="form-control" placeholder="Harooooon">
+                                    <!--Tooltip-->
+                                    <span class="input-group-text">
+                                     <span class="hover text-muted" data-bs-placement="right" title="Enter your name so we can know who you are."><i class="bi bi-question-circle"></i>
+                                    </span>
+                                   </span>
+                                </div>
+
+                                <label for="subject" class="form-label mt-3">What is your question about ?</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                                    <select name="DropDown" class="form-select" id="subject">
+                                        <option value="pricing" selected>Pricing Qurey</option>
+                                        <option value="content">Content Qurey</option>
+                                        <option value="other">Other Query</option>
+                                    </select>
+                                </div>
+                                
+
+                                <div class="form-floating mb-4 mt-4">
+                                <textarea name="qurey" id="qurey" style="height: 150px;" class="form-control"></textarea>
+                                <label for="qurey" class="form-label">Your query...</label>
+                                </div>
+
+                                <div class="text-center">
+                                    <button class="btn btn-outline-secondary btn-lg">Submit</button>
+                                </div>
+                                                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Model Trigger-->
+                <section class="bg-light">
+                    <div class="container mb-5">
+                        <div class="text-center">
+                            <h5>Stay In The Loop</h5>
+                            <p class="lead">Get the latest update as they happen...</p>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-md-6 text-center">
+                                <p class="text-muted my-4">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium illum nisi aliquid minus recusandae corrupti adipisci ratione blanditiis debitis doloribus, odit eum quos omnis placeat tempora, ut deleniti consectetur dignissimos.
+                                </p>
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reg-modal">Register For Update</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            <!--Model Itself-->
+                <div class="modal fade" id="reg-modal" tabindex="-1" aria-hidden="true" aria-labelledby="modal-title" data-bs-keyboard='false' data-bs-backdrop="static">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="modal-title">Get The Latest Update</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid ducimus esse delectus, pariatur modi, ipsam et harum rerum, natus ratione nemo temporibus. Atque quasi expedita veniam facere doloremque quae recusandae.</p>
+
+                            <label for="email" class="form-label">Your Email Adress:</label>
+                            <input type="email" name="email" id="email" class="form-control" placeholder="e.g.haron@example.com">
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-primary" data-bs-dismiss="modal">Submit</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <!--Offcanvas-->
+                <div class="offcanvas offcanvas-start" id="sidebar" tabindex="-1" aria-labelledby="offcanvas-label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvas-label">My Other Books</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Colse" role="button"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et esse earum quisquam quam! Tempora ut eos molestiae optio temporibus id aliquid laudantium? Repellendus asperiores nesciunt eveniet facere, impedit minima ad?</p>
+                        <!-- DropDown -->
+                        <div class="dropdown mt-3">
+                            <button type="button" class="btn btn-secondary dropdown-toggle " id="book -dropdown" data-bs-toggle="dropdown" aria-expanded="false">Choose a book title</button>
+
+                            <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+                                <li><a href="#" class="dropdown-item">Became A React Superhero</a></li>
+                                <li><a href="#" class="dropdown-item">Conquering Vue.js</a></li>
+                                <li><a href="#" class="dropdown-item" data-bs>Leveling up your Next.js</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script>
+    const tooltip= document.querySelectorAll('.hover')
+    tooltip.forEach(t =>{
+        new bootstrap.Tooltip(t)
+    })
+</script>
+</body>
+</html>
